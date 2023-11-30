@@ -1,5 +1,5 @@
 import styles from './FlatDetails.module.scss'
-import StarScale from '../StarScale'
+import StarScale from '../StarScale/StarScale'
 
 export default function FlatDetails(props) {
     return (

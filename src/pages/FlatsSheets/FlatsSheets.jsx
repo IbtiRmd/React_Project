@@ -1,9 +1,9 @@
 import flatsList from '../../datas/flatsList.json'
 import { useLocation } from 'react-router-dom';
 import styles from './FlatsSheets.module.scss'
-import Slideshow from '../../components/Slideshow';
-import FlatDetails from '../../components/FlatDetails';
-import FlatsCollapses from '../../components/FlatsCollapses';
+import Slideshow from '../../components/Slideshow/Slideshow';
+import FlatDetails from '../../components/FlatDetails/FlatDetails';
+import FlatsCollapses from '../../components/FlatsCollapses/FlatsCollapses';
 
 export default function FlatsSheets() {
     const sampleLocation = useLocation();

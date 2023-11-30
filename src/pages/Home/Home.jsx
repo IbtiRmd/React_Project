@@ -1,7 +1,7 @@
-import styles from './Home.module.css'
-import Banner from '../../components/Banner'
+import styles from './Home.module.scss'
+import Banner from '../../components/Banner/Banner'
 import imageBanner from '../../assets/banner4.jpg'
-import Card from '../../components/Card'
+import Card from '../../components/Card/Card'
 
 
 export default function Home() {

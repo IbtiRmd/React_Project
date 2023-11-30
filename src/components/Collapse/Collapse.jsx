@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react'
 import vectorOpen from '../../assets/Vector_open.png'
 import vectorClosed from '../../assets/Vector_closed.png'
-import styles from './Collapse.module.css'
+import styles from './Collapse.module.scss'
 
 export default function Collapse({titre, description}) {
     const [vector, setVector] = useState(false);

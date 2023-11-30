@@ -1,5 +1,5 @@
 import styles from './FlatsCollapses.module.scss'
-import Collapse from '../Collapse'
+import Collapse from '../Collapse/Collapse'
 
 export default function FlatsCollapses(props) {
     return (

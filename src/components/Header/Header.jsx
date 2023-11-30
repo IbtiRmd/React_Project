@@ -13,7 +13,7 @@ export default Header*/
 
 
 import logo from '../../assets/logo.svg'
-import styles from './Header.module.css'
+import styles from './Header.module.scss'
 import { Link, NavLink } from 'react-router-dom'
 
 export default function Header() {
