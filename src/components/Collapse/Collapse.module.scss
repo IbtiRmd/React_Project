@@ -13,6 +13,21 @@
     height: 45px;
 }
 
+
+
 .img {
     height: 15px;
 }
+
+.banniereCollapse:focus .img {
+    
+    //background-color: rgb(72, 255, 0);
+    transition: 0.2s ease-in-out;
+    transform: rotate(-180deg);
+    -webkit-transform:rotate(-180deg) ;
+    -ms-transform: rotate(-180deg);
+}
+
+
+
+

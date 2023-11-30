@@ -7,7 +7,9 @@ export default function StarScale({rating}){
 
     return(
         <>
-        {range.map((rangeStar) => rating >= rangeStar ? <img key={`star ${rangeStar}`} src={redStar} alt='etoile rouge' className={styles.img}/> : <img key={`star ${rangeStar}`} src={greyStar} alt='etoile grise' className={styles.img}/> )}
+        {range.map((rangeStar) => rating >= rangeStar ? <img key={`star ${rangeStar}`} src={redStar} alt='etoile rouge' className={styles.img}/> 
+        : 
+        <img key={`star ${rangeStar}`} src={greyStar} alt='etoile grise' className={styles.img}/> )}
         </>
     )
 }
